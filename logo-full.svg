@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 799 340" role="img" aria-label="Fields of Heshbon, since 2021">
+<rect width="100%" height="100%" fill="#1D4730"/>
+<g transform="translate(40 40)"><defs><clipPath id="inner"><ellipse cx="100" cy="130" rx="78" ry="108"/></clipPath></defs>
+<ellipse cx="100" cy="130" rx="93" ry="123" fill="none" stroke="#C8F0D6" stroke-width="5"/>
+<ellipse cx="100" cy="130" rx="83.5" ry="113.5" fill="none" stroke="#C8F0D6" stroke-width="4"/>
+<g clip-path="url(#inner)">
+<polygon points="100,146 -121.0,260 -87.0,260" fill="#2E7F38"/>
+<polygon points="100,146 -87.0,260 -53.0,260" fill="#4DB04B"/>
+<polygon points="100,146 -53.0,260 -19.0,260" fill="#2E7F38"/>
+<polygon points="100,146 -19.0,260 15.0,260" fill="#4DB04B"/>
+<polygon points="100,146 15.0,260 49.0,260" fill="#2E7F38"/>
+<polygon points="100,146 49.0,260 83.0,260" fill="#4DB04B"/>
+<polygon points="100,146 83.0,260 117.0,260" fill="#2E7F38"/>
+<polygon points="100,146 117.0,260 151.0,260" fill="#4DB04B"/>
+<polygon points="100,146 151.0,260 185.0,260" fill="#2E7F38"/>
+<polygon points="100,146 185.0,260 219.0,260" fill="#4DB04B"/>
+<polygon points="100,146 219.0,260 253.0,260" fill="#2E7F38"/>
+<polygon points="100,146 253.0,260 287.0,260" fill="#4DB04B"/>
+<polygon points="100,146 287.0,260 321.0,260" fill="#2E7F38"/>
+<rect x="0" y="146" width="200" height="5" fill="#1D4730"/>
+<path d="M26,146 V105 A74,74 0 0 1 174,105 V146 Z" fill="#F4EE45"/>
+<line x1="62.1" y1="89.3" x2="29.8" y2="75.9" stroke="#1D4730" stroke-width="5"/>
+<line x1="71.0" y1="76.0" x2="46.3" y2="51.3" stroke="#1D4730" stroke-width="5"/>
+<line x1="84.3" y1="67.1" x2="70.9" y2="34.8" stroke="#1D4730" stroke-width="5"/>
+<line x1="100.0" y1="64.0" x2="100.0" y2="29.0" stroke="#1D4730" stroke-width="5"/>
+<line x1="115.7" y1="67.1" x2="129.1" y2="34.8" stroke="#1D4730" stroke-width="5"/>
+<line x1="129.0" y1="76.0" x2="153.7" y2="51.3" stroke="#1D4730" stroke-width="5"/>
+<line x1="137.9" y1="89.3" x2="170.2" y2="75.9" stroke="#1D4730" stroke-width="5"/>
+<line x1="38.2" y1="92.7" x2="25.5" y2="90.2" stroke="#1D4730" stroke-width="4.5"/>
+<line x1="47.6" y1="70.0" x2="36.8" y2="62.8" stroke="#1D4730" stroke-width="4.5"/>
+<line x1="65.0" y1="52.6" x2="57.8" y2="41.8" stroke="#1D4730" stroke-width="4.5"/>
+<line x1="87.7" y1="43.2" x2="85.2" y2="30.5" stroke="#1D4730" stroke-width="4.5"/>
+<line x1="112.3" y1="43.2" x2="114.8" y2="30.5" stroke="#1D4730" stroke-width="4.5"/>
+<line x1="135.0" y1="52.6" x2="142.2" y2="41.8" stroke="#1D4730" stroke-width="4.5"/>
+<line x1="152.4" y1="70.0" x2="163.2" y2="62.8" stroke="#1D4730" stroke-width="4.5"/>
+<line x1="161.8" y1="92.7" x2="174.5" y2="90.2" stroke="#1D4730" stroke-width="4.5"/>
+<line x1="59" y1="125" x2="24" y2="125" stroke="#1D4730" stroke-width="5"/>
+<line x1="37" y1="136" x2="24" y2="136" stroke="#1D4730" stroke-width="4.5"/>
+<line x1="141" y1="125" x2="176" y2="125" stroke="#1D4730" stroke-width="5"/>
+<line x1="163" y1="136" x2="176" y2="136" stroke="#1D4730" stroke-width="4.5"/>
+<rect x="0" y="146" width="200" height="5" fill="#1D4730"/>
+<path d="M56,146 V105 A44,44 0 0 1 144,105 V146 Z" fill="#1D4730"/>
+<path d="M60.5,146 V105 A39.5,39.5 0 0 1 139.5,105 V146 Z" fill="#C6EC7C"/>
+<g fill="#1D4730">
+<rect x="97" y="80" width="6" height="66" rx="2"/>
+<ellipse cx="100" cy="80" rx="8.5" ry="12"/>
+<ellipse cx="88" cy="104" rx="9" ry="13" transform="rotate(-38 88 104)"/>
+<ellipse cx="112" cy="104" rx="9" ry="13" transform="rotate(38 112 104)"/>
+<ellipse cx="88" cy="124" rx="9" ry="13" transform="rotate(-38 88 124)"/>
+<ellipse cx="112" cy="124" rx="9" ry="13" transform="rotate(38 112 124)"/>
+</g>
+<g fill="#C6EC7C" opacity=".9">
+<ellipse cx="100" cy="81" rx="3.5" ry="6"/>
+<ellipse cx="87.5" cy="105" rx="4" ry="7" transform="rotate(-38 87.5 105)"/>
+<ellipse cx="112.5" cy="105" rx="4" ry="7" transform="rotate(38 112.5 105)"/>
+<ellipse cx="87.5" cy="125" rx="4" ry="7" transform="rotate(-38 87.5 125)"/>
+<ellipse cx="112.5" cy="125" rx="4" ry="7" transform="rotate(38 112.5 125)"/>
+</g>
+</g></g>
+<g transform="translate(280 120)"><g fill="none" stroke="#C8F0D6" stroke-width="7.5" stroke-linecap="square" stroke-linejoin="round"><path transform="translate(0 0)" d="M22.5 3.5H3.5V56.5M3.5 29H19"/><path transform="translate(33 0)" d="M4 3.5V56.5"/><path transform="translate(48 0)" d="M22.5 3.5H3.5V56.5H22.5M3.5 29H19"/><path transform="translate(81 0)" d="M3.5 3.5V56.5H22"/><path transform="translate(113 0)" d="M3.5 3.5H12Q22.5 3.5 22.5 14V46Q22.5 56.5 12 56.5H3.5Z"/><path transform="translate(146 0)" d="M22.5 13Q22.5 3.5 13 3.5Q3.5 3.5 3.5 13V18Q3.5 27 13 29Q22.5 31 22.5 40V47Q22.5 56.5 13 56.5Q3.5 56.5 3.5 47"/><path transform="translate(179 0)" d="M13 3.5Q22.5 3.5 22.5 13V47Q22.5 56.5 13 56.5Q3.5 56.5 3.5 47V13Q3.5 3.5 13 3.5Z"/><path transform="translate(212 0)" d="M22.5 3.5H3.5V56.5M3.5 29H19"/><path transform="translate(245 0)" d="M3.5 3.5V56.5M22.5 3.5V56.5M3.5 29H22.5"/><path transform="translate(278 0)" d="M22.5 3.5H3.5V56.5H22.5M3.5 29H19"/><path transform="translate(311 0)" d="M22.5 13Q22.5 3.5 13 3.5Q3.5 3.5 3.5 13V18Q3.5 27 13 29Q22.5 31 22.5 40V47Q22.5 56.5 13 56.5Q3.5 56.5 3.5 47"/><path transform="translate(344 0)" d="M3.5 3.5V56.5M22.5 3.5V56.5M3.5 29H22.5"/><path transform="translate(377 0)" d="M3.5 29H13Q21 29 21 20.5V12Q21 3.5 13 3.5H3.5V56.5H13Q22.5 56.5 22.5 47V38Q22.5 29 13 29"/><path transform="translate(410 0)" d="M13 3.5Q22.5 3.5 22.5 13V47Q22.5 56.5 13 56.5Q3.5 56.5 3.5 47V13Q3.5 3.5 13 3.5Z"/><path transform="translate(443 0)" d="M3.5 56.5V3.5L22.5 56.5V3.5"/></g></g>
+<g transform="translate(397.8 198) scale(1.15)"><g fill="none" stroke="#F3F7F2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path transform="translate(0 0)" d="M17 9Q17 3 10 3Q3 3 3 9V11.5Q3 16.5 10 17.5Q17 18.5 17 23.5V25Q17 31 10 31Q3 31 3 25"/><path transform="translate(24 0)" d="M3 14V31"/><circle cx="27" cy="5.5" r="3.6" fill="#F3F7F2" stroke="none"/><path transform="translate(34 0)" d="M3 31V12M3 18Q3 12 10 12Q17 12 17 18V31"/><path transform="translate(58 0)" d="M16.5 15.5Q14 12 10 12Q3 12 3 21.5Q3 31 10 31Q14 31 16.5 27.5"/><path transform="translate(81 0)" d="M3.5 22H17Q17 12 10 12Q3 12 3 21.5Q3 31 10 31Q14 31 16 28.5"/><path transform="translate(117 0)" d="M3 9Q4 3 10 3Q17 3 17 10Q17 14.5 12.5 19.5L3 31H17"/><path transform="translate(141 0)" d="M10 3Q17 3 17 10V24Q17 31 10 31Q3 31 3 24V10Q3 3 10 3Z"/><path transform="translate(165 0)" d="M3 9Q4 3 10 3Q17 3 17 10Q17 14.5 12.5 19.5L3 31H17"/><path transform="translate(189 0)" d="M4 8.5L10 3V31"/></g></g>
+</svg>
