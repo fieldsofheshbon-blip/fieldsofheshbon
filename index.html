@@ -260,7 +260,24 @@
       </div>
     </div>
   </section>
-  <script async src="https://www.instagram.com/embed.js"></script>
+  <script>
+  /* Load Instagram only when the reels scroll near view, so they don't slow the first paint. */
+  (function(){
+    var grid=document.querySelector('.ig-grid'); if(!grid) return;
+    function load(){
+      if(window.__igLoaded) return; window.__igLoaded=true;
+      var s=document.createElement('script'); s.async=true; s.src='https://www.instagram.com/embed.js'; document.body.appendChild(s);
+      var n=0, t=setInterval(function(){
+        grid.querySelectorAll('iframe').forEach(function(f){ if(!f.title) f.title='Fields of Heshbon on Instagram: recent job video'; });
+        if(++n>40) clearInterval(t);
+      },500);
+    }
+    if('IntersectionObserver' in window){
+      var io=new IntersectionObserver(function(e){ if(e[0].isIntersecting){ io.disconnect(); load(); } },{rootMargin:'400px'});
+      io.observe(grid);
+    } else { window.addEventListener('load', load); }
+  })();
+  </script>
 
   <!-- AREAS -->
   <section id="areas">
@@ -331,7 +348,7 @@
         <input type="hidden" name="_subject" value="New website request – Fields of Heshbon">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" value="https://fieldsofheshbon.com/thanks.html">
-        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off">
+        <label class="hp" aria-hidden="true">Leave this field empty<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label>
         <div class="row">
           <label>Name<input name="name" required autocomplete="name"></label>
           <label>Phone<input name="phone" type="tel" required autocomplete="tel"></label>

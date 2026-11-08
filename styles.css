@@ -55,7 +55,7 @@
   .card p{color:var(--muted);margin-bottom:16px}
   .card ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
   .card li{font-size:1rem;font-weight:500;padding:6px 12px;border-radius:999px}
-  .c-water .icon,.c-water li{background:var(--sky-l);color:var(--sky-d)}
+  .c-water .icon,.c-water li{background:var(--sky-l);color:#1F6129}
   .c-land .icon,.c-land li{background:var(--leaf-l);color:var(--leaf-d)}
   .c-garden .icon,.c-garden li{background:var(--sun-l);color:#8A6A00}
   .c-build .icon,.c-build li{background:#EEF1EC;color:var(--ink)}
@@ -184,3 +184,5 @@
   .sources a{color:var(--sky-d)}
   .guide-callout{display:block;margin-top:22px;background:var(--sun-l);border:1px solid #eee7a0;border-radius:14px;padding:16px 20px;text-decoration:none;color:var(--ink)}
   .guide-callout strong{color:var(--leaf-d)}
+
+  footer a:not(.brand){text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
