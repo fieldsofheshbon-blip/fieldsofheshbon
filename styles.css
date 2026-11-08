@@ -186,3 +186,30 @@
   .guide-callout strong{color:var(--leaf-d)}
 
   footer a:not(.brand){text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+
+  /* Pricing */
+  .price-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+  .price-card{display:flex;flex-direction:column;gap:6px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;text-decoration:none;color:var(--ink);transition:border-color .2s,transform .2s}
+  .price-card:hover{border-color:var(--sky);transform:translateY(-2px)}
+  .price-card span{color:var(--muted);font-size:1rem}
+  .price-card strong{font-family:Sora,"Plus Jakarta Sans",sans-serif;font-size:1.35rem;color:var(--leaf-d)}
+  .price-card.free{background:var(--sun-l);border-color:#eee7a0}
+  @media (max-width:1000px){ .price-grid{grid-template-columns:repeat(2,1fr)} .price-card.free{grid-column:1/-1} }
+  .price-note{margin-top:18px;display:inline-flex;flex-wrap:wrap;gap:8px}
+  .price-note span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:1rem;font-weight:600;color:var(--leaf-d)}
+  .price-note span.free{background:var(--sun-l);border-color:#eee7a0}
+
+  /* Instagram: reserve space so the page doesn't jump, and center the reels */
+  .ig-grid{justify-content:center}
+  .ig-grid > .instagram-media, .ig-grid > iframe{min-height:640px}
+
+  /* Breathing room after the dark band */
+  .band + section, .band + section#pricing{padding-top:72px}
+  #work{padding-top:72px !important}
+
+  /* Footer: keep icon and label together */
+  footer a{white-space:nowrap}
+  footer a svg{display:inline-block}
+
+  /* Center the logo card on tablets/phones */
+  @media (max-width:900px){ .hero-art{margin-inline:auto;width:100%} }
