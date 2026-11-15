@@ -101,6 +101,7 @@
   footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px;align-items:center}
   footer .brand{color:#fff}
   footer a{color:#fff;text-decoration:none}
+  footer .friends{flex-basis:100%;font-size:.88rem;opacity:.8}
 
   /* sticky mobile bar */
   .mbar{display:none}
