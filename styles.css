@@ -223,3 +223,12 @@
   .review figcaption{font-weight:700;color:var(--leaf-d)}
   .review figcaption span{font-weight:500;color:var(--muted)}
   @media (max-width:900px){ .review-grid{grid-template-columns:1fr} }
+
+  /* Layout tweaks (Nov 15) */
+  .photo-grid img{height:auto}
+  .hero-rating{display:inline-flex;align-items:center;gap:8px;margin-top:18px;font-weight:600;color:var(--ink);text-decoration:none}
+  .hero-rating:hover{text-decoration:underline}
+  .hero-rating .stars{color:#8A6A00;letter-spacing:2px}
+  .ig-more{margin-top:18px;text-align:center}
+  .ig-more a{font-weight:600}
+  @media (max-width:900px){ .photo-grid figcaption{font-size:.9rem;padding:8px 10px} .ig-grid > :nth-child(n+2){display:none} }
