@@ -214,3 +214,12 @@
 
   /* Center the logo card on tablets/phones */
   @media (max-width:900px){ .hero-art{margin-inline:auto;width:100%} }
+
+  /* Reviews */
+  .review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .review{margin:0;background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:12px}
+  .review .stars{color:#8A6A00;letter-spacing:2px;font-size:1.1rem}
+  .review blockquote{margin:0;color:var(--ink);font-size:1.02rem;line-height:1.6;flex:1}
+  .review figcaption{font-weight:700;color:var(--leaf-d)}
+  .review figcaption span{font-weight:500;color:var(--muted)}
+  @media (max-width:900px){ .review-grid{grid-template-columns:1fr} }
